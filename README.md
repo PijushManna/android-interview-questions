@@ -192,7 +192,7 @@ Android Interview Questions:
 
 * **What is a `BroadcastReceiver`?** - [Learn from here](https://developer.android.com/guide/components/broadcasts)
 
-* **What is a `LocalBroadcastManager`?**
+* **What is a `LocalBroadcastManager`?** - [Learn from here](https://blog.mindorks.com/using-localbroadcastmanager-in-android/#:~:text=LocalBroadcastManager%20is%20used%20to%20register,will%20not%20leave%20your%20app.)
 
 * **What is the function of an `IntentFilter`?** - [Learn from here](https://developer.android.com/reference/android/content/IntentFilter)
 
