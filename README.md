@@ -219,7 +219,9 @@ Android Interview Questions:
 * **How can two distinct Android apps interact?** - [Learn from here](https://developer.android.com/training/basics/intents)
 
 * **Is it possible to run an Android app in multiple processes? How?** - [Learn from here](https://stackoverflow.com/questions/6567768/how-can-an-android-application-have-more-than-one-process)
+     - You can specify android:process=":remote" in your manifest to have an activity/service run in a seperate process.
 
+The "remote" is just the name of the remote process, and you can call it whatever you want. If you want several activities/services to run in the same process, just give it the same name.
 * **What is AIDL? Enumerate the steps in creating a bounded service through AIDL.** - [Learn from here](https://developer.android.com/guide/components/aidl)
 
 * **What can you use for background processing in Android?** - [Learn from here](https://developer.android.com/guide/background)
